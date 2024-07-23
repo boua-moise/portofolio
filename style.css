@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(#01bff8,#525fe9);
+    background-repeat: no-repeat;
+    font-family: 'Manrop', sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+h1{
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,li{
+    font-size: 1.1em;
+}
+
+a{
+    text-decoration: none;
+    color: #525fe9;
+}
+
+header,
+footer{
+    background-color: white;
+    padding: 25px 30px;
+}
+
+.contenu-apropos{
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.a-propos-main{
+    width: 60%;
+    margin: auto;
+}
+
+section{
+    padding: 80px;
+}
+
+.boutton{
+    background: linear-gradient(rgb(32, 103, 255),rgb(0, 255, 0));
+    padding: 20px 30px;
+    border-radius: 30px;
+    color: white;
+}
+
+.contenu-apropos h2,ul{
+    margin-top: 30px;
+}
+
+footer img:hover{
+    opacity: 0.5;
+}
+header img:hover{
+    opacity: 0.5;
+}
+a:active{
+    color: #01bff8;
+}
+
+.boutton:hover{
+    background:linear-gradient(#00085f,#0be6b6);
+    text-decoration: none;
+}
+/*.a-propos-main{
+    background: linear-gradient(rgb(0, 140, 255),rgb(252, 0, 218));
+ }*/
+span{
+    color: #0be6b6;
+}
+
+.lien-icone{
+    margin-right: 10px;
+}
+
+.accueil-introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.accueil-projet{
+    background-color: white;
+    padding: 80px;
+
+}
+
+.accueil-projet h2{
+    color: #525fe9;
+    text-align: center;
+}
+
+footer,nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div a{
+    margin-left: 30px;
+}
+
+.lien{
+    font-size: 1.1em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.variante{
+    width: 100%;
+    text-align: center;
+}
+
+.grid-portraits{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px;
+}
+
+.grid-portraits img{
+    height: 100%;
+    /* Même si vous ne connaissez pas cette propriété, vous en aurez besoin pour permettre aux images de respecter les dimensions de la grid CSS */
+    object-fit: cover;
+}
+
+.accueil-introduction div{
+    padding-right: 80px;
+    padding-left: 60px;
+}
+
+.accueil-introduction h1{
+    margin-bottom: 5px;
+}
+
+.accueil-introduction p{
+    margin-bottom: 40px;
+}
+
+div .boutton{
+    margin: 0;
+}
+
+/*.contenu-apropos div{
+    margin-bottom: 30px;
+}*/
+
+.contenu-apropos+div{
+    text-align: center;
+}
+
+.a-propos-main h2{
+    text-align: center;
+}
+
+.a-propos-main h1{
+    text-align: center;
+}
+
+.presentation{
+    text-align: justify;
+}
