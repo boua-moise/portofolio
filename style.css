@@ -17,6 +17,9 @@ span.title{
 
 p,li{
     font-size: 1.1em;
+}
+
+p{
     text-align: justify;
 }
 
