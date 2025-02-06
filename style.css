@@ -74,7 +74,7 @@ a:active{
 /*.a-propos-main{
     background: linear-gradient(rgb(0, 140, 255),rgb(252, 0, 218));
  }*/
-span.sub{
+.sub{
     color: #0be6b6;
     font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
